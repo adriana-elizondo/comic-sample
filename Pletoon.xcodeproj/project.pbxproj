@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26D900541B293D000056AC82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D900531B293D000056AC82 /* main.m */; };
+		26D900571B293D000056AC82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D900561B293D000056AC82 /* AppDelegate.m */; };
+		26D9005A1B293D000056AC82 /* Pletoon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 26D900581B293D000056AC82 /* Pletoon.xcdatamodeld */; };
+		26D9005D1B293D000056AC82 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D9005C1B293D000056AC82 /* ViewController.m */; };
+		26D900601B293D000056AC82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D9005E1B293D000056AC82 /* Main.storyboard */; };
+		26D900621B293D000056AC82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26D900611B293D000056AC82 /* Images.xcassets */; };
+		26D900651B293D000056AC82 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26D900631B293D000056AC82 /* LaunchScreen.xib */; };
+		26D900711B293D010056AC82 /* PletoonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D900701B293D010056AC82 /* PletoonTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26D9006B1B293D010056AC82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26D900461B293D000056AC82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26D9004D1B293D000056AC82;
+			remoteInfo = Pletoon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26D9004E1B293D000056AC82 /* Pletoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pletoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D900521B293D000056AC82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26D900531B293D000056AC82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26D900551B293D000056AC82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26D900561B293D000056AC82 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26D900591B293D000056AC82 /* Pletoon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pletoon.xcdatamodel; sourceTree = "<group>"; };
+		26D9005B1B293D000056AC82 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		26D9005C1B293D000056AC82 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		26D9005F1B293D000056AC82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26D900611B293D000056AC82 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		26D900641B293D000056AC82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		26D9006A1B293D010056AC82 /* PletoonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PletoonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D9006F1B293D010056AC82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26D900701B293D010056AC82 /* PletoonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PletoonTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26D9004B1B293D000056AC82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26D900671B293D010056AC82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26D900451B293D000056AC82 = {
+			isa = PBXGroup;
+			children = (
+				26D900501B293D000056AC82 /* Pletoon */,
+				26D9006D1B293D010056AC82 /* PletoonTests */,
+				26D9004F1B293D000056AC82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26D9004F1B293D000056AC82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26D9004E1B293D000056AC82 /* Pletoon.app */,
+				26D9006A1B293D010056AC82 /* PletoonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26D900501B293D000056AC82 /* Pletoon */ = {
+			isa = PBXGroup;
+			children = (
+				26D900551B293D000056AC82 /* AppDelegate.h */,
+				26D900561B293D000056AC82 /* AppDelegate.m */,
+				26D9005B1B293D000056AC82 /* ViewController.h */,
+				26D9005C1B293D000056AC82 /* ViewController.m */,
+				26D9005E1B293D000056AC82 /* Main.storyboard */,
+				26D900611B293D000056AC82 /* Images.xcassets */,
+				26D900631B293D000056AC82 /* LaunchScreen.xib */,
+				26D900581B293D000056AC82 /* Pletoon.xcdatamodeld */,
+				26D900511B293D000056AC82 /* Supporting Files */,
+			);
+			path = Pletoon;
+			sourceTree = "<group>";
+		};
+		26D900511B293D000056AC82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26D900521B293D000056AC82 /* Info.plist */,
+				26D900531B293D000056AC82 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26D9006D1B293D010056AC82 /* PletoonTests */ = {
+			isa = PBXGroup;
+			children = (
+				26D900701B293D010056AC82 /* PletoonTests.m */,
+				26D9006E1B293D010056AC82 /* Supporting Files */,
+			);
+			path = PletoonTests;
+			sourceTree = "<group>";
+		};
+		26D9006E1B293D010056AC82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26D9006F1B293D010056AC82 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26D9004D1B293D000056AC82 /* Pletoon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26D900741B293D010056AC82 /* Build configuration list for PBXNativeTarget "Pletoon" */;
+			buildPhases = (
+				26D9004A1B293D000056AC82 /* Sources */,
+				26D9004B1B293D000056AC82 /* Frameworks */,
+				26D9004C1B293D000056AC82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pletoon;
+			productName = Pletoon;
+			productReference = 26D9004E1B293D000056AC82 /* Pletoon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26D900691B293D010056AC82 /* PletoonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26D900771B293D010056AC82 /* Build configuration list for PBXNativeTarget "PletoonTests" */;
+			buildPhases = (
+				26D900661B293D010056AC82 /* Sources */,
+				26D900671B293D010056AC82 /* Frameworks */,
+				26D900681B293D010056AC82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26D9006C1B293D010056AC82 /* PBXTargetDependency */,
+			);
+			name = PletoonTests;
+			productName = PletoonTests;
+			productReference = 26D9006A1B293D010056AC82 /* PletoonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26D900461B293D000056AC82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Adriana;
+				TargetAttributes = {
+					26D9004D1B293D000056AC82 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					26D900691B293D010056AC82 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 26D9004D1B293D000056AC82;
+					};
+				};
+			};
+			buildConfigurationList = 26D900491B293D000056AC82 /* Build configuration list for PBXProject "Pletoon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26D900451B293D000056AC82;
+			productRefGroup = 26D9004F1B293D000056AC82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26D9004D1B293D000056AC82 /* Pletoon */,
+				26D900691B293D010056AC82 /* PletoonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26D9004C1B293D000056AC82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D900601B293D000056AC82 /* Main.storyboard in Resources */,
+				26D900651B293D000056AC82 /* LaunchScreen.xib in Resources */,
+				26D900621B293D000056AC82 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26D900681B293D010056AC82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26D9004A1B293D000056AC82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D9005A1B293D000056AC82 /* Pletoon.xcdatamodeld in Sources */,
+				26D900571B293D000056AC82 /* AppDelegate.m in Sources */,
+				26D9005D1B293D000056AC82 /* ViewController.m in Sources */,
+				26D900541B293D000056AC82 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26D900661B293D010056AC82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D900711B293D010056AC82 /* PletoonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26D9006C1B293D010056AC82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26D9004D1B293D000056AC82 /* Pletoon */;
+			targetProxy = 26D9006B1B293D010056AC82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26D9005E1B293D000056AC82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26D9005F1B293D000056AC82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26D900631B293D000056AC82 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26D900641B293D000056AC82 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26D900721B293D010056AC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		26D900731B293D010056AC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26D900751B293D010056AC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pletoon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		26D900761B293D010056AC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pletoon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		26D900781B293D010056AC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PletoonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pletoon.app/Pletoon";
+			};
+			name = Debug;
+		};
+		26D900791B293D010056AC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PletoonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pletoon.app/Pletoon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26D900491B293D000056AC82 /* Build configuration list for PBXProject "Pletoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26D900721B293D010056AC82 /* Debug */,
+				26D900731B293D010056AC82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26D900741B293D010056AC82 /* Build configuration list for PBXNativeTarget "Pletoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26D900751B293D010056AC82 /* Debug */,
+				26D900761B293D010056AC82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		26D900771B293D010056AC82 /* Build configuration list for PBXNativeTarget "PletoonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26D900781B293D010056AC82 /* Debug */,
+				26D900791B293D010056AC82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		26D900581B293D000056AC82 /* Pletoon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				26D900591B293D000056AC82 /* Pletoon.xcdatamodel */,
+			);
+			currentVersion = 26D900591B293D000056AC82 /* Pletoon.xcdatamodel */;
+			path = Pletoon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 26D900461B293D000056AC82 /* Project object */;
+}
