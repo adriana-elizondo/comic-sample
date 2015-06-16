@@ -1,4 +1,54 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14D136" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Artist" representedClassName="Artist" syncable="YES">
+        <attribute name="avatar" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="comic" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Comic" inverseName="artist" inverseEntity="Comic" syncable="YES"/>
+    </entity>
+    <entity name="Categories" representedClassName="Categories" syncable="YES">
+        <attribute name="backgroundColor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="comic" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Comic" inverseName="categories" inverseEntity="Comic" syncable="YES"/>
+    </entity>
+    <entity name="Comic" representedClassName="Comic" syncable="YES">
+        <attribute name="comicDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="comicId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="coverImage" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="coverNewImage" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="highlightedImage" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="isCompletelyDownloaded" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isHighlighted" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="language" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="order" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="principalCategory" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rating" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <attribute name="squareImage" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="artist" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Artist" inverseName="comic" inverseEntity="Artist" syncable="YES"/>
+        <relationship name="categories" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="Categories" inverseName="comic" inverseEntity="Categories" syncable="YES"/>
+        <relationship name="episodes" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="Episode" inverseName="comic" inverseEntity="Episode" syncable="YES"/>
+    </entity>
+    <entity name="Episode" representedClassName="Episode" syncable="YES">
+        <attribute name="comments" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="coverPictureImage" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="episodeId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="likes" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="order" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="comic" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Comic" inverseName="episodes" inverseEntity="Comic" syncable="YES"/>
+        <relationship name="images" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="EpisodeImages" inverseName="episode" inverseEntity="EpisodeImages" syncable="YES"/>
+    </entity>
+    <entity name="EpisodeImages" representedClassName="EpisodeImages" syncable="YES">
+        <attribute name="image" attributeType="Binary" syncable="YES"/>
+        <attribute name="order" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="episode" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Episode" inverseName="images" inverseEntity="Episode" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Artist" positionX="-450" positionY="270" width="128" height="105"/>
+        <element name="Categories" positionX="-459" positionY="279" width="128" height="90"/>
+        <element name="Comic" positionX="-702" positionY="135" width="128" height="285"/>
+        <element name="Episode" positionX="-405" positionY="156" width="128" height="165"/>
+        <element name="EpisodeImages" positionX="-18" positionY="135" width="128" height="90"/>
+    </elements>
 </model>

@@ -7,6 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		266D31F91B2B51E100F5481D /* Episode.m in Sources */ = {isa = PBXBuildFile; fileRef = 266D31F01B2B51E100F5481D /* Episode.m */; };
+		266D31FA1B2B51E100F5481D /* Artist.m in Sources */ = {isa = PBXBuildFile; fileRef = 266D31F21B2B51E100F5481D /* Artist.m */; };
+		266D31FB1B2B51E100F5481D /* Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 266D31F41B2B51E100F5481D /* Categories.m */; };
+		266D31FC1B2B51E100F5481D /* EpisodeImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 266D31F61B2B51E100F5481D /* EpisodeImages.m */; };
+		266D31FD1B2B51E100F5481D /* Comic.m in Sources */ = {isa = PBXBuildFile; fileRef = 266D31F81B2B51E100F5481D /* Comic.m */; };
+		266D32011B2B562100F5481D /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 266D32001B2B562100F5481D /* Reachability.m */; };
+		266D32041B2B587A00F5481D /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 266D32031B2B587A00F5481D /* checkmark.png */; };
+		26A0D3531B2CD26600C3667B /* PLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A0D3521B2CD26600C3667B /* PLTabBarController.m */; };
+		26A0D3571B2CD3E500C3667B /* PLMyComicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A0D3561B2CD3E500C3667B /* PLMyComicsViewController.m */; };
+		26A0D35A1B2CD80300C3667B /* SaveDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A0D3591B2CD80300C3667B /* SaveDataHelper.m */; };
+		26A0D3601B2D161500C3667B /* blueimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 26A0D35E1B2D161500C3667B /* blueimage.png */; };
+		26A0D3611B2D161500C3667B /* info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26A0D35F1B2D161500C3667B /* info@2x.png */; };
+		26A0D3641B2D1D7500C3667B /* PLComicInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A0D3631B2D1D7500C3667B /* PLComicInfoViewController.m */; };
+		26A0D3661B2DF85A00C3667B /* batman@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26A0D3651B2DF85A00C3667B /* batman@2x.png */; };
+		26A0D3681B2DF86200C3667B /* cartoon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26A0D3671B2DF86200C3667B /* cartoon@2x.png */; };
+		26A0D36A1B2E49AE00C3667B /* delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26A0D3691B2E49AE00C3667B /* delete@2x.png */; };
+		26A0D36D1B2E55AC00C3667B /* ReachabilityHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A0D36C1B2E55AC00C3667B /* ReachabilityHelper.m */; };
+		26A0D3701B2EAA4C00C3667B /* PLCategoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A0D36F1B2EAA4C00C3667B /* PLCategoryTableViewCell.m */; };
+		26A0D37A1B2EAE9200C3667B /* Action@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26A0D3711B2EAE9200C3667B /* Action@2x.png */; };
+		26A0D37B1B2EAE9200C3667B /* Comedy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26A0D3721B2EAE9200C3667B /* Comedy@2x.png */; };
+		26A0D37C1B2EAE9200C3667B /* Drama@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26A0D3731B2EAE9200C3667B /* Drama@2x.png */; };
+		26A0D37D1B2EAE9200C3667B /* Fantasy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26A0D3741B2EAE9200C3667B /* Fantasy@2x.png */; };
+		26A0D37E1B2EAE9200C3667B /* HeartWarming@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26A0D3751B2EAE9200C3667B /* HeartWarming@2x.png */; };
+		26A0D37F1B2EAE9200C3667B /* info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26A0D3761B2EAE9200C3667B /* info@2x.png */; };
+		26A0D3801B2EAE9200C3667B /* Lifestyle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26A0D3771B2EAE9200C3667B /* Lifestyle@2x.png */; };
+		26A0D3811B2EAE9200C3667B /* Romance@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26A0D3781B2EAE9200C3667B /* Romance@2x.png */; };
+		26A0D3821B2EAE9200C3667B /* Thriller@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26A0D3791B2EAE9200C3667B /* Thriller@2x.png */; };
+		26A0D3851B2EB2BA00C3667B /* indonesia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26A0D3831B2EB2BA00C3667B /* indonesia@2x.png */; };
+		26A0D3861B2EB2BA00C3667B /* usa@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26A0D3841B2EB2BA00C3667B /* usa@2x.png */; };
+		26A0D38D1B2FCF8800C3667B /* PLComicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A0D38C1B2FCF8800C3667B /* PLComicTableViewCell.m */; };
 		26D900541B293D000056AC82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D900531B293D000056AC82 /* main.m */; };
 		26D900571B293D000056AC82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D900561B293D000056AC82 /* AppDelegate.m */; };
 		26D9005A1B293D000056AC82 /* Pletoon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 26D900581B293D000056AC82 /* Pletoon.xcdatamodeld */; };
@@ -15,6 +45,20 @@
 		26D900621B293D000056AC82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26D900611B293D000056AC82 /* Images.xcassets */; };
 		26D900651B293D000056AC82 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26D900631B293D000056AC82 /* LaunchScreen.xib */; };
 		26D900711B293D010056AC82 /* PletoonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D900701B293D010056AC82 /* PletoonTests.m */; };
+		26D9007D1B293DD90056AC82 /* RequestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D9007C1B293DD90056AC82 /* RequestHelper.m */; };
+		26D900851B29400A0056AC82 /* PLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D900841B29400A0056AC82 /* PLHomeViewController.m */; };
+		26D900881B29406A0056AC82 /* PLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D900871B29406A0056AC82 /* PLBaseViewController.m */; };
+		26D9008C1B29438F0056AC82 /* PLComicCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D9008B1B29438F0056AC82 /* PLComicCollectionViewCell.m */; };
+		26D900901B2944340056AC82 /* PLComic.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D9008F1B2944340056AC82 /* PLComic.m */; };
+		26D900941B2959DC0056AC82 /* PLEpisodeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D900931B2959DC0056AC82 /* PLEpisodeTableViewCell.m */; };
+		26D900971B295C370056AC82 /* PLEpisodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D900961B295C370056AC82 /* PLEpisodeViewController.m */; };
+		26D9009D1B2AA1720056AC82 /* PLEpisodeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D9009C1B2AA1720056AC82 /* PLEpisodeDetailViewController.m */; };
+		26D900A01B2AA2090056AC82 /* PLEpisodeContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D9009F1B2AA2090056AC82 /* PLEpisodeContentViewController.m */; };
+		26EAE2641B2FF66B00E08563 /* pletoon58@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26EAE2601B2FF66B00E08563 /* pletoon58@2x.png */; };
+		26EAE2651B2FF66B00E08563 /* pletoon80@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26EAE2611B2FF66B00E08563 /* pletoon80@2x.png */; };
+		26EAE2661B2FF66B00E08563 /* pletoon120@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26EAE2621B2FF66B00E08563 /* pletoon120@2x.png */; };
+		26EAE2671B2FF66B00E08563 /* pletoon180@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26EAE2631B2FF66B00E08563 /* pletoon180@3x.png */; };
+		7A231096DE98EF0721F400B7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73E251F80CEC45974D655F33 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +72,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		266D31EF1B2B51E100F5481D /* Episode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Episode.h; path = NSManagedObjectClasses/Episode.h; sourceTree = "<group>"; };
+		266D31F01B2B51E100F5481D /* Episode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Episode.m; path = NSManagedObjectClasses/Episode.m; sourceTree = "<group>"; };
+		266D31F11B2B51E100F5481D /* Artist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Artist.h; path = NSManagedObjectClasses/Artist.h; sourceTree = "<group>"; };
+		266D31F21B2B51E100F5481D /* Artist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Artist.m; path = NSManagedObjectClasses/Artist.m; sourceTree = "<group>"; };
+		266D31F31B2B51E100F5481D /* Categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Categories.h; path = NSManagedObjectClasses/Categories.h; sourceTree = "<group>"; };
+		266D31F41B2B51E100F5481D /* Categories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Categories.m; path = NSManagedObjectClasses/Categories.m; sourceTree = "<group>"; };
+		266D31F51B2B51E100F5481D /* EpisodeImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EpisodeImages.h; path = NSManagedObjectClasses/EpisodeImages.h; sourceTree = "<group>"; };
+		266D31F61B2B51E100F5481D /* EpisodeImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EpisodeImages.m; path = NSManagedObjectClasses/EpisodeImages.m; sourceTree = "<group>"; };
+		266D31F71B2B51E100F5481D /* Comic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Comic.h; path = NSManagedObjectClasses/Comic.h; sourceTree = "<group>"; };
+		266D31F81B2B51E100F5481D /* Comic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Comic.m; path = NSManagedObjectClasses/Comic.m; sourceTree = "<group>"; };
+		266D31FF1B2B562100F5481D /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = Reachability/Reachability.h; sourceTree = "<group>"; };
+		266D32001B2B562100F5481D /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = Reachability/Reachability.m; sourceTree = "<group>"; };
+		266D32031B2B587A00F5481D /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkmark.png; path = Images/checkmark.png; sourceTree = "<group>"; };
+		26A0D3511B2CD26600C3667B /* PLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLTabBarController.h; path = TabBar/PLTabBarController.h; sourceTree = "<group>"; };
+		26A0D3521B2CD26600C3667B /* PLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PLTabBarController.m; path = TabBar/PLTabBarController.m; sourceTree = "<group>"; };
+		26A0D3551B2CD3E500C3667B /* PLMyComicsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLMyComicsViewController.h; path = ViewControllers/PLMyComicsViewController.h; sourceTree = "<group>"; };
+		26A0D3561B2CD3E500C3667B /* PLMyComicsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PLMyComicsViewController.m; path = ViewControllers/PLMyComicsViewController.m; sourceTree = "<group>"; };
+		26A0D3581B2CD80300C3667B /* SaveDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SaveDataHelper.h; path = Helpers/SaveDataHelper.h; sourceTree = "<group>"; };
+		26A0D3591B2CD80300C3667B /* SaveDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SaveDataHelper.m; path = Helpers/SaveDataHelper.m; sourceTree = "<group>"; };
+		26A0D35E1B2D161500C3667B /* blueimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blueimage.png; path = Images/blueimage.png; sourceTree = "<group>"; };
+		26A0D35F1B2D161500C3667B /* info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "info@2x.png"; path = "Images/info@2x.png"; sourceTree = "<group>"; };
+		26A0D3621B2D1D7500C3667B /* PLComicInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLComicInfoViewController.h; path = ViewControllers/PLComicInfoViewController.h; sourceTree = "<group>"; };
+		26A0D3631B2D1D7500C3667B /* PLComicInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PLComicInfoViewController.m; path = ViewControllers/PLComicInfoViewController.m; sourceTree = "<group>"; };
+		26A0D3651B2DF85A00C3667B /* batman@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "batman@2x.png"; path = "Images/batman@2x.png"; sourceTree = "<group>"; };
+		26A0D3671B2DF86200C3667B /* cartoon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cartoon@2x.png"; path = "Images/cartoon@2x.png"; sourceTree = "<group>"; };
+		26A0D3691B2E49AE00C3667B /* delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "delete@2x.png"; path = "Images/delete@2x.png"; sourceTree = "<group>"; };
+		26A0D36B1B2E55AC00C3667B /* ReachabilityHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReachabilityHelper.h; path = Reachability/ReachabilityHelper.h; sourceTree = "<group>"; };
+		26A0D36C1B2E55AC00C3667B /* ReachabilityHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReachabilityHelper.m; path = Reachability/ReachabilityHelper.m; sourceTree = "<group>"; };
+		26A0D36E1B2EAA4C00C3667B /* PLCategoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLCategoryTableViewCell.h; path = TableViewCell/PLCategoryTableViewCell.h; sourceTree = "<group>"; };
+		26A0D36F1B2EAA4C00C3667B /* PLCategoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PLCategoryTableViewCell.m; path = TableViewCell/PLCategoryTableViewCell.m; sourceTree = "<group>"; };
+		26A0D3711B2EAE9200C3667B /* Action@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Action@2x.png"; path = "Images/Action@2x.png"; sourceTree = "<group>"; };
+		26A0D3721B2EAE9200C3667B /* Comedy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Comedy@2x.png"; path = "Images/Comedy@2x.png"; sourceTree = "<group>"; };
+		26A0D3731B2EAE9200C3667B /* Drama@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Drama@2x.png"; path = "Images/Drama@2x.png"; sourceTree = "<group>"; };
+		26A0D3741B2EAE9200C3667B /* Fantasy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Fantasy@2x.png"; path = "Images/Fantasy@2x.png"; sourceTree = "<group>"; };
+		26A0D3751B2EAE9200C3667B /* HeartWarming@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "HeartWarming@2x.png"; path = "Images/HeartWarming@2x.png"; sourceTree = "<group>"; };
+		26A0D3761B2EAE9200C3667B /* info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "info@2x.png"; path = "Images/info@2x.png"; sourceTree = "<group>"; };
+		26A0D3771B2EAE9200C3667B /* Lifestyle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Lifestyle@2x.png"; path = "Images/Lifestyle@2x.png"; sourceTree = "<group>"; };
+		26A0D3781B2EAE9200C3667B /* Romance@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Romance@2x.png"; path = "Images/Romance@2x.png"; sourceTree = "<group>"; };
+		26A0D3791B2EAE9200C3667B /* Thriller@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Thriller@2x.png"; path = "Images/Thriller@2x.png"; sourceTree = "<group>"; };
+		26A0D3831B2EB2BA00C3667B /* indonesia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "indonesia@2x.png"; path = "Images/indonesia@2x.png"; sourceTree = "<group>"; };
+		26A0D3841B2EB2BA00C3667B /* usa@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "usa@2x.png"; path = "Images/usa@2x.png"; sourceTree = "<group>"; };
+		26A0D38B1B2FCF8800C3667B /* PLComicTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLComicTableViewCell.h; path = TableViewCell/PLComicTableViewCell.h; sourceTree = "<group>"; };
+		26A0D38C1B2FCF8800C3667B /* PLComicTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PLComicTableViewCell.m; path = TableViewCell/PLComicTableViewCell.m; sourceTree = "<group>"; };
 		26D9004E1B293D000056AC82 /* Pletoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pletoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26D900521B293D000056AC82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26D900531B293D000056AC82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +129,32 @@
 		26D9006A1B293D010056AC82 /* PletoonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PletoonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26D9006F1B293D010056AC82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26D900701B293D010056AC82 /* PletoonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PletoonTests.m; sourceTree = "<group>"; };
+		26D9007B1B293DD90056AC82 /* RequestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RequestHelper.h; path = ServerRequests/RequestHelper.h; sourceTree = "<group>"; };
+		26D9007C1B293DD90056AC82 /* RequestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RequestHelper.m; path = ServerRequests/RequestHelper.m; sourceTree = "<group>"; };
+		26D9007F1B293F380056AC82 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = Helpers/Constants.h; sourceTree = "<group>"; };
+		26D900831B29400A0056AC82 /* PLHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLHomeViewController.h; path = ViewControllers/PLHomeViewController.h; sourceTree = "<group>"; };
+		26D900841B29400A0056AC82 /* PLHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PLHomeViewController.m; path = ViewControllers/PLHomeViewController.m; sourceTree = "<group>"; };
+		26D900861B29406A0056AC82 /* PLBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLBaseViewController.h; path = ViewControllers/PLBaseViewController.h; sourceTree = "<group>"; };
+		26D900871B29406A0056AC82 /* PLBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PLBaseViewController.m; path = ViewControllers/PLBaseViewController.m; sourceTree = "<group>"; };
+		26D9008A1B29438F0056AC82 /* PLComicCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLComicCollectionViewCell.h; path = CollectionViewCell/PLComicCollectionViewCell.h; sourceTree = "<group>"; };
+		26D9008B1B29438F0056AC82 /* PLComicCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PLComicCollectionViewCell.m; path = CollectionViewCell/PLComicCollectionViewCell.m; sourceTree = "<group>"; };
+		26D9008E1B2944340056AC82 /* PLComic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLComic.h; path = Entities/PLComic.h; sourceTree = "<group>"; };
+		26D9008F1B2944340056AC82 /* PLComic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PLComic.m; path = Entities/PLComic.m; sourceTree = "<group>"; };
+		26D900921B2959DC0056AC82 /* PLEpisodeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLEpisodeTableViewCell.h; path = TableViewCell/PLEpisodeTableViewCell.h; sourceTree = "<group>"; };
+		26D900931B2959DC0056AC82 /* PLEpisodeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PLEpisodeTableViewCell.m; path = TableViewCell/PLEpisodeTableViewCell.m; sourceTree = "<group>"; };
+		26D900951B295C370056AC82 /* PLEpisodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLEpisodeViewController.h; path = ViewControllers/PLEpisodeViewController.h; sourceTree = "<group>"; };
+		26D900961B295C370056AC82 /* PLEpisodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PLEpisodeViewController.m; path = ViewControllers/PLEpisodeViewController.m; sourceTree = "<group>"; };
+		26D9009B1B2AA1720056AC82 /* PLEpisodeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLEpisodeDetailViewController.h; path = ViewControllers/PLEpisodeDetailViewController.h; sourceTree = "<group>"; };
+		26D9009C1B2AA1720056AC82 /* PLEpisodeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PLEpisodeDetailViewController.m; path = ViewControllers/PLEpisodeDetailViewController.m; sourceTree = "<group>"; };
+		26D9009E1B2AA2090056AC82 /* PLEpisodeContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLEpisodeContentViewController.h; path = ViewControllers/PLEpisodeContentViewController.h; sourceTree = "<group>"; };
+		26D9009F1B2AA2090056AC82 /* PLEpisodeContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PLEpisodeContentViewController.m; path = ViewControllers/PLEpisodeContentViewController.m; sourceTree = "<group>"; };
+		26EAE2601B2FF66B00E08563 /* pletoon58@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pletoon58@2x.png"; path = "Images/pletoon58@2x.png"; sourceTree = "<group>"; };
+		26EAE2611B2FF66B00E08563 /* pletoon80@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pletoon80@2x.png"; path = "Images/pletoon80@2x.png"; sourceTree = "<group>"; };
+		26EAE2621B2FF66B00E08563 /* pletoon120@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pletoon120@2x.png"; path = "Images/pletoon120@2x.png"; sourceTree = "<group>"; };
+		26EAE2631B2FF66B00E08563 /* pletoon180@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pletoon180@3x.png"; path = "Images/pletoon180@3x.png"; sourceTree = "<group>"; };
+		31976380E79698DDF448D0C5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		73E251F80CEC45974D655F33 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6D3C23D567AAE819962BD65 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +162,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A231096DE98EF0721F400B7 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +176,79 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		266D31CD1B2B4DC100F5481D /* NSManagedObjectClasses */ = {
+			isa = PBXGroup;
+			children = (
+				266D31EF1B2B51E100F5481D /* Episode.h */,
+				266D31F01B2B51E100F5481D /* Episode.m */,
+				266D31F11B2B51E100F5481D /* Artist.h */,
+				266D31F21B2B51E100F5481D /* Artist.m */,
+				266D31F31B2B51E100F5481D /* Categories.h */,
+				266D31F41B2B51E100F5481D /* Categories.m */,
+				266D31F51B2B51E100F5481D /* EpisodeImages.h */,
+				266D31F61B2B51E100F5481D /* EpisodeImages.m */,
+				266D31F71B2B51E100F5481D /* Comic.h */,
+				266D31F81B2B51E100F5481D /* Comic.m */,
+			);
+			name = NSManagedObjectClasses;
+			sourceTree = "<group>";
+		};
+		266D31FE1B2B561700F5481D /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				266D31FF1B2B562100F5481D /* Reachability.h */,
+				266D32001B2B562100F5481D /* Reachability.m */,
+				26A0D36B1B2E55AC00C3667B /* ReachabilityHelper.h */,
+				26A0D36C1B2E55AC00C3667B /* ReachabilityHelper.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		266D32021B2B583200F5481D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				26A0D3651B2DF85A00C3667B /* batman@2x.png */,
+				26A0D35E1B2D161500C3667B /* blueimage.png */,
+				26A0D35F1B2D161500C3667B /* info@2x.png */,
+				26A0D3711B2EAE9200C3667B /* Action@2x.png */,
+				26A0D3721B2EAE9200C3667B /* Comedy@2x.png */,
+				26A0D3731B2EAE9200C3667B /* Drama@2x.png */,
+				26A0D3741B2EAE9200C3667B /* Fantasy@2x.png */,
+				26A0D3751B2EAE9200C3667B /* HeartWarming@2x.png */,
+				26A0D3761B2EAE9200C3667B /* info@2x.png */,
+				26A0D3831B2EB2BA00C3667B /* indonesia@2x.png */,
+				26A0D3841B2EB2BA00C3667B /* usa@2x.png */,
+				26A0D3771B2EAE9200C3667B /* Lifestyle@2x.png */,
+				26A0D3781B2EAE9200C3667B /* Romance@2x.png */,
+				26A0D3791B2EAE9200C3667B /* Thriller@2x.png */,
+				26A0D3691B2E49AE00C3667B /* delete@2x.png */,
+				26A0D3671B2DF86200C3667B /* cartoon@2x.png */,
+				266D32031B2B587A00F5481D /* checkmark.png */,
+				26EAE2601B2FF66B00E08563 /* pletoon58@2x.png */,
+				26EAE2611B2FF66B00E08563 /* pletoon80@2x.png */,
+				26EAE2621B2FF66B00E08563 /* pletoon120@2x.png */,
+				26EAE2631B2FF66B00E08563 /* pletoon180@3x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		26A0D3501B2CD24600C3667B /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				26A0D3511B2CD26600C3667B /* PLTabBarController.h */,
+				26A0D3521B2CD26600C3667B /* PLTabBarController.m */,
+			);
+			name = TabBar;
+			sourceTree = "<group>";
+		};
 		26D900451B293D000056AC82 = {
 			isa = PBXGroup;
 			children = (
 				26D900501B293D000056AC82 /* Pletoon */,
 				26D9006D1B293D010056AC82 /* PletoonTests */,
 				26D9004F1B293D000056AC82 /* Products */,
+				B24598F001A39689FF61F79E /* Pods */,
+				7605AB4D843D77BB09A1F4B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +264,16 @@
 		26D900501B293D000056AC82 /* Pletoon */ = {
 			isa = PBXGroup;
 			children = (
+				26A0D3501B2CD24600C3667B /* TabBar */,
+				266D32021B2B583200F5481D /* Images */,
+				266D31FE1B2B561700F5481D /* Reachability */,
+				266D31CD1B2B4DC100F5481D /* NSManagedObjectClasses */,
+				26D900911B2959B10056AC82 /* TableViewCell */,
+				26D9008D1B2943BD0056AC82 /* Entities */,
+				26D900891B29436F0056AC82 /* CollectionViewCell */,
+				26D900821B293FE60056AC82 /* ViewControllers */,
+				26D9007E1B293F1D0056AC82 /* Helpers */,
+				26D9007A1B293DA30056AC82 /* ServerRequests */,
 				26D900551B293D000056AC82 /* AppDelegate.h */,
 				26D900561B293D000056AC82 /* AppDelegate.m */,
 				26D9005B1B293D000056AC82 /* ViewController.h */,
@@ -122,6 +313,94 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		26D9007A1B293DA30056AC82 /* ServerRequests */ = {
+			isa = PBXGroup;
+			children = (
+				26D9007B1B293DD90056AC82 /* RequestHelper.h */,
+				26D9007C1B293DD90056AC82 /* RequestHelper.m */,
+			);
+			name = ServerRequests;
+			sourceTree = "<group>";
+		};
+		26D9007E1B293F1D0056AC82 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				26D9007F1B293F380056AC82 /* Constants.h */,
+				26A0D3581B2CD80300C3667B /* SaveDataHelper.h */,
+				26A0D3591B2CD80300C3667B /* SaveDataHelper.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		26D900821B293FE60056AC82 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				26D900831B29400A0056AC82 /* PLHomeViewController.h */,
+				26D900841B29400A0056AC82 /* PLHomeViewController.m */,
+				26D900861B29406A0056AC82 /* PLBaseViewController.h */,
+				26D900871B29406A0056AC82 /* PLBaseViewController.m */,
+				26D900951B295C370056AC82 /* PLEpisodeViewController.h */,
+				26D900961B295C370056AC82 /* PLEpisodeViewController.m */,
+				26D9009B1B2AA1720056AC82 /* PLEpisodeDetailViewController.h */,
+				26D9009C1B2AA1720056AC82 /* PLEpisodeDetailViewController.m */,
+				26D9009E1B2AA2090056AC82 /* PLEpisodeContentViewController.h */,
+				26D9009F1B2AA2090056AC82 /* PLEpisodeContentViewController.m */,
+				26A0D3551B2CD3E500C3667B /* PLMyComicsViewController.h */,
+				26A0D3561B2CD3E500C3667B /* PLMyComicsViewController.m */,
+				26A0D3621B2D1D7500C3667B /* PLComicInfoViewController.h */,
+				26A0D3631B2D1D7500C3667B /* PLComicInfoViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		26D900891B29436F0056AC82 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				26D9008A1B29438F0056AC82 /* PLComicCollectionViewCell.h */,
+				26D9008B1B29438F0056AC82 /* PLComicCollectionViewCell.m */,
+			);
+			name = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		26D9008D1B2943BD0056AC82 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				26D9008E1B2944340056AC82 /* PLComic.h */,
+				26D9008F1B2944340056AC82 /* PLComic.m */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		26D900911B2959B10056AC82 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				26D900921B2959DC0056AC82 /* PLEpisodeTableViewCell.h */,
+				26D900931B2959DC0056AC82 /* PLEpisodeTableViewCell.m */,
+				26A0D36E1B2EAA4C00C3667B /* PLCategoryTableViewCell.h */,
+				26A0D36F1B2EAA4C00C3667B /* PLCategoryTableViewCell.m */,
+				26A0D38B1B2FCF8800C3667B /* PLComicTableViewCell.h */,
+				26A0D38C1B2FCF8800C3667B /* PLComicTableViewCell.m */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		7605AB4D843D77BB09A1F4B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73E251F80CEC45974D655F33 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B24598F001A39689FF61F79E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6D3C23D567AAE819962BD65 /* Pods.debug.xcconfig */,
+				31976380E79698DDF448D0C5 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +408,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26D900741B293D010056AC82 /* Build configuration list for PBXNativeTarget "Pletoon" */;
 			buildPhases = (
+				FFA5FBC4783F9BF06028E523 /* Check Pods Manifest.lock */,
 				26D9004A1B293D000056AC82 /* Sources */,
 				26D9004B1B293D000056AC82 /* Frameworks */,
 				26D9004C1B293D000056AC82 /* Resources */,
+				BF354CA19FBA99ED049FEECE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -171,6 +452,7 @@
 				TargetAttributes = {
 					26D9004D1B293D000056AC82 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = FQMBJ8GB56;
 					};
 					26D900691B293D010056AC82 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -202,9 +484,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26A0D3861B2EB2BA00C3667B /* usa@2x.png in Resources */,
+				26EAE2661B2FF66B00E08563 /* pletoon120@2x.png in Resources */,
 				26D900601B293D000056AC82 /* Main.storyboard in Resources */,
+				26A0D37D1B2EAE9200C3667B /* Fantasy@2x.png in Resources */,
+				26A0D36A1B2E49AE00C3667B /* delete@2x.png in Resources */,
+				26A0D3681B2DF86200C3667B /* cartoon@2x.png in Resources */,
+				266D32041B2B587A00F5481D /* checkmark.png in Resources */,
+				26EAE2641B2FF66B00E08563 /* pletoon58@2x.png in Resources */,
+				26A0D3661B2DF85A00C3667B /* batman@2x.png in Resources */,
+				26EAE2671B2FF66B00E08563 /* pletoon180@3x.png in Resources */,
 				26D900651B293D000056AC82 /* LaunchScreen.xib in Resources */,
+				26A0D3811B2EAE9200C3667B /* Romance@2x.png in Resources */,
+				26A0D37A1B2EAE9200C3667B /* Action@2x.png in Resources */,
 				26D900621B293D000056AC82 /* Images.xcassets in Resources */,
+				26A0D37E1B2EAE9200C3667B /* HeartWarming@2x.png in Resources */,
+				26EAE2651B2FF66B00E08563 /* pletoon80@2x.png in Resources */,
+				26A0D3601B2D161500C3667B /* blueimage.png in Resources */,
+				26A0D37B1B2EAE9200C3667B /* Comedy@2x.png in Resources */,
+				26A0D37F1B2EAE9200C3667B /* info@2x.png in Resources */,
+				26A0D3821B2EAE9200C3667B /* Thriller@2x.png in Resources */,
+				26A0D37C1B2EAE9200C3667B /* Drama@2x.png in Resources */,
+				26A0D3851B2EB2BA00C3667B /* indonesia@2x.png in Resources */,
+				26A0D3801B2EAE9200C3667B /* Lifestyle@2x.png in Resources */,
+				26A0D3611B2D161500C3667B /* info@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,15 +520,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BF354CA19FBA99ED049FEECE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFA5FBC4783F9BF06028E523 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		26D9004A1B293D000056AC82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26D900A01B2AA2090056AC82 /* PLEpisodeContentViewController.m in Sources */,
+				266D31FC1B2B51E100F5481D /* EpisodeImages.m in Sources */,
+				26D900881B29406A0056AC82 /* PLBaseViewController.m in Sources */,
+				26A0D3641B2D1D7500C3667B /* PLComicInfoViewController.m in Sources */,
+				26D900901B2944340056AC82 /* PLComic.m in Sources */,
+				26A0D35A1B2CD80300C3667B /* SaveDataHelper.m in Sources */,
+				26A0D3531B2CD26600C3667B /* PLTabBarController.m in Sources */,
 				26D9005A1B293D000056AC82 /* Pletoon.xcdatamodeld in Sources */,
+				26A0D36D1B2E55AC00C3667B /* ReachabilityHelper.m in Sources */,
+				266D31FB1B2B51E100F5481D /* Categories.m in Sources */,
+				26D9007D1B293DD90056AC82 /* RequestHelper.m in Sources */,
 				26D900571B293D000056AC82 /* AppDelegate.m in Sources */,
+				26D900941B2959DC0056AC82 /* PLEpisodeTableViewCell.m in Sources */,
+				26A0D3571B2CD3E500C3667B /* PLMyComicsViewController.m in Sources */,
+				26D9008C1B29438F0056AC82 /* PLComicCollectionViewCell.m in Sources */,
+				26D9009D1B2AA1720056AC82 /* PLEpisodeDetailViewController.m in Sources */,
+				266D31FA1B2B51E100F5481D /* Artist.m in Sources */,
+				26A0D3701B2EAA4C00C3667B /* PLCategoryTableViewCell.m in Sources */,
+				26D900851B29400A0056AC82 /* PLHomeViewController.m in Sources */,
+				266D32011B2B562100F5481D /* Reachability.m in Sources */,
 				26D9005D1B293D000056AC82 /* ViewController.m in Sources */,
+				266D31FD1B2B51E100F5481D /* Comic.m in Sources */,
+				266D31F91B2B51E100F5481D /* Episode.m in Sources */,
 				26D900541B293D000056AC82 /* main.m in Sources */,
+				26D900971B295C370056AC82 /* PLEpisodeViewController.m in Sources */,
+				26A0D38D1B2FCF8800C3667B /* PLComicTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,9 +707,12 @@
 		};
 		26D900751B293D010056AC82 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6D3C23D567AAE819962BD65 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Pletoon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -359,9 +720,12 @@
 		};
 		26D900761B293D010056AC82 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31976380E79698DDF448D0C5 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Pletoon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -420,6 +784,7 @@
 				26D900761B293D010056AC82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		26D900771B293D010056AC82 /* Build configuration list for PBXNativeTarget "PletoonTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +793,7 @@
 				26D900791B293D010056AC82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
