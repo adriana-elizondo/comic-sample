@@ -1,0 +1,5 @@
+pod 'AFNetworking'
+pod 'Haneke'
+pod 'SVProgressHUD'
+pod 'MagicalRecord'
+pod 'JTSImageViewController'
